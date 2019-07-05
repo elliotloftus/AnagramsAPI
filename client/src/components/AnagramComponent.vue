@@ -15,10 +15,8 @@
 
 <script>
 import AnagramService from '@/services/AnagramService/';
-import TextInput from '@/views/TextInput/';
 export default {
   name: 'AnagramComponent',
-  components: {TextInput},
   data() {
     return {
       words: [],

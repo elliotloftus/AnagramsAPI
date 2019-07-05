@@ -7,6 +7,5 @@ export default {
     if (word !== '') {
       return Api().get('anagrams/' + word + '.json');
     }
-    //return Api().get('posts');
   }
 }
