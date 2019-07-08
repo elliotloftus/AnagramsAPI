@@ -1,10 +1,24 @@
 # Anagrams
 
-This Project has multiple APIs that allow you to interact with anagrams.
+This Project has multiple APIs that allow you to interact with anagrams.  See the project live in action here https://gentle-coast-45220.herokuapp.com/
+
+# Running and Testing locally
+ 
+ To run this app locally just make sure to have NodeJS installed and follow these steps. 
+ 1) clone the repo
+ 2) npm install to get dependencies
+ 3) npm start
+ 
+The host url for tests is currently pointing to the deployed backend at peaceful-stream-39279.herokuapp.com, but if you wish to test changes locally just change the host url to localhost and additionally add the port number to whatever port you're running the app on locally. Then run the tests by directing into the test folder and using the command ruby anagram_test.rb.  This will require ruby to be installed.  You will see I added some tests to test the optional features I added. 
+
+If you wish to add the dictionary just type node addDictionary.js from the root directory, this will take about 4 minutes to take the text file and push it to mongoDB.
+
+If you wish to make front end changes checkout the code for the repository here https://github.com/elliotloftus/anagramsAPIFronted
+
 
 # Implementation
 
-The project was built with an NodeJS express backend and a MongoDB key value store for quick searches to find anagrams.  The project also has a vue js frontend that you can check out here INSERT LINK.
+The project was built with an NodeJS express backend and a MongoDB key value store for quick searches to find anagrams.
 
 The app.js file contains the routes for the request to the API, and the anagrams.js and words.js files in the routes folder contain the majority of the logic behind those APIs. 
 
