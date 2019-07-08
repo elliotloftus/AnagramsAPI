@@ -19,6 +19,7 @@ mongoose.connect(
 var arr = fs.readFileSync(dictPath).toString().split('\n')
 
 //create map of words for bulk insert
+//bulk insert takes around 4 minutes
 var map= new Map();
 for (word of arr) {
     const sorted = helper.sortWord(word);
@@ -26,6 +27,8 @@ for (word of arr) {
         map.set(sorted,[word]);
    }
    else {
+       //dont worry about duplicate words in array because 
+       //our text file should not contain duplicates
        ar = map.get(sorted);
        ar.push(word);
        map.set(sorted,ar);

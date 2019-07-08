@@ -21,9 +21,6 @@ mongoose.connect(
     });
 
 
-//Create api to add all words to dictionary
-//app.post('/dictionary',wordsRoute.addDictionary);
-
 /* Api To Add json array of words to dictionary
 * 
 * Example Request
