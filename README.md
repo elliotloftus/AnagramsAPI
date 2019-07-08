@@ -1,6 +1,6 @@
 # Anagrams
 
-This Project has multiple APIs that allow you to interact with anagrams.  See the project live in action with a user frontend here https://gentle-coast-45220.herokuapp.com/
+This Project has multiple APIs that allow you to interact with anagrams.  See the project live in action with a user frontend here https://gentle-coast-45220.herokuapp.com/ .  Sometimes Heroku takes a little bit to get ready, so be pateint and try words like "read" that have anagrams and within a couple seconds or so heroku should wake up and start delivering real time results.
 
 # Running and Testing locally
  
