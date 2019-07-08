@@ -11,7 +11,7 @@ This Project has multiple APIs that allow you to interact with anagrams.  See th
  
 To run the tests direct into the test folder and using the command ruby anagram_test.rb.  This will require ruby to be installed. The host url for tests is currently pointing to the deployed backend at peaceful-stream-39279.herokuapp.com, but if you wish to test changes locally change the host url to localhost and add the port number. You will see I added some tests to test the optional features I added. 
 
-If you wish to add the dictionary just type node addDictionary.js from the root directory, this will take about 4 minutes to take the text file and push it to mongoDB.
+If you wish to add the dictionary just type node addDictionary.js from the root directory, this will take about 4 minutes to complete
 
 If you wish to make front end changes checkout the code for the repository here https://github.com/elliotloftus/anagramsAPIFronted
 
