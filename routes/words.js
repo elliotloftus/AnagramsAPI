@@ -68,10 +68,3 @@ exports.deleteWord = async function(req,res) {
     return res.sendStatus(204);
 };
 
-//add all words from dictionary to mongoDB
-/*exports.addDictionary = function(req,res) {
-    var fs = require('../test/dictionary');
-    fs.readFile('DATA', 'utf8', function(err, words) {
-        console.log(words);
-    }
-}*/
