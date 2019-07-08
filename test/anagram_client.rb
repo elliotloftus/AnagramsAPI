@@ -7,8 +7,8 @@ class AnagramClient
     options = parse_opts(args)
 
     @dictionary = options[:dictionary] || 'dictionary.txt'
-    @host = options[:host] || 'localhost'
-    @port = options[:port] || '3000'
+    @host = options[:host] || 'peaceful-stream-39279.herokuapp.com'
+    @port = options[:port] || ''
   end
 
   def build_uri(path, query=nil)
