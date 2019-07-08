@@ -1,6 +1,6 @@
 # Anagrams
 
-This Project has multiple APIs that allow you to interact with anagrams.  See the project live in action here https://gentle-coast-45220.herokuapp.com/
+This Project has multiple APIs that allow you to interact with anagrams.  See the project live in action with a user frontend here https://gentle-coast-45220.herokuapp.com/
 
 # Running and Testing locally
  
