@@ -7,8 +7,8 @@ class AnagramClient
     options = parse_opts(args)
 
     @dictionary = options[:dictionary] || 'dictionary.txt'
-    @host = options[:host] || 'ec2-34-222-47-177.us-west-2.compute.amazonaws.com'
-    @port = options[:port] || ''
+    @host = options[:host] || 'localhost'
+    @port = options[:port] || '3000'
   end
 
   def build_uri(path, query=nil)
